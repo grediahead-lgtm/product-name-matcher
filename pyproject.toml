@@ -1,0 +1,16 @@
+[project]
+name = "product-name-matcher"
+version = "0.1.0"
+description = "Matches products between two price lists by similar names, with a confidence score and a review file. Standard library only."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Dmytro Grechyshchev" }]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
